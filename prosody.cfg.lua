@@ -7,8 +7,8 @@ use_libevent = true; -- improves performance
 
 allow_registration = true;
 
-c2s_require_encryption = true;
-s2s_secure_auth = true;
+c2s_require_encryption = false;
+s2s_secure_auth = false;
 
 authentication = "internal_hashed";
 

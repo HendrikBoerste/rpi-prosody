@@ -1,9 +1,9 @@
-local domain = os.getenv("DOMAIN")
+local domain = "localhost"
 
-ssl = {
-	key = "/usr/local/etc/prosody/certs/prosody.key";
-	certificate = "/usr/local/etc/prosody/certs/prosody.crt";
-}
+-- ssl = {
+-- key = "/usr/local/etc/prosody/certs/prosody.key";
+-- certificate = "/usr/local/etc/prosody/certs/prosody.crt";
+-- }
 
 VirtualHost (domain)
 
